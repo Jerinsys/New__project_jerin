@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
         alert("Form submitted successfully!");
 
         // Example of how to send form data using fetch (AJAX)
-        /*
+        
         fetch("/login", {
             method: "POST",
             headers: {
@@ -34,6 +34,6 @@ document.addEventListener("DOMContentLoaded", function() {
             console.error("Error:", error);
             // Handle any errors here
         });
-        */
+        
     });
 });
